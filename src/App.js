@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 /* ══════════════════════════════════════════════════════════════
    🔧 إعدادات Supabase — استبدل القيم بمفاتيحك من لوحة التحكم
    ══════════════════════════════════════════════════════════════ */
-const SUPABASE_URL = "https://qzciniydzmoninfmpovs.supabase.co";
+const SUPABASE_URL = "https://qzciniydymoninfmpovs.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF6Y2luaXlkeW1vbmluZm1wb3ZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA5MTY3NDYsImV4cCI6MjA4NjQ5Mjc0Nn0.559WsrKVIW0ny3MVXy7YopRZz3-6Q9XwdOrkoheyPSk";
 
 const IS_CONFIGURED = !SUPABASE_URL.includes("YOUR_") && !SUPABASE_ANON_KEY.includes("YOUR_");
