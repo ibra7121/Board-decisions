@@ -237,7 +237,7 @@ function Login({ onLogin }) {
           return;
         }
       }
-      setError("DEBUG: " + JSON.stringify(result));
+      setError(result.error || "بيانات الدخول غير صحيحة");
     } else {
       // ── Demo Mode ──
       await new Promise(r => setTimeout(r, 600));
